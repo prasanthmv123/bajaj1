@@ -1,0 +1,42 @@
+.h1{
+    display: flex;
+}
+/* show the hamburger icon on screens larger than 768px */
+@media screen and (min-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  /* hide the hamburger icon on screens smaller than 768px */
+  @media screen and (max-width: 767px) {
+    .hamburger {
+      display: none;
+    }
+  }
+@media (max-width: 600px) {
+  .b1{
+display:none;
+  }
+}
+@media (max-width: 600px) {
+  .cust{
+text-size:30px;
+
+
+  }
+}
+@media (max-width: 600px) {
+  nav-item dropdown{
+
+
+
+  }
+}
+.search-bar {
+      display: none;
+    }
+
+    .search-bar.show {
+      display: block;
+    }

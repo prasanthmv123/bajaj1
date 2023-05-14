@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2R9tSQyzwD5pNgUPU+kKx1SLLCwlk0XoL+3bgPiS+tJz/jhtu94CvGqQIdtP1i6q5VnTRBFJc+j5FQJgW4x6Iw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="bajaj-logo2.png"
+          class="img-fluid">
+      </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse ms-5" id="mynavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Motorcycles
+            </a>
+            <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="#">Pulsar</a></li>
+            <li><a class="dropdown-item" href="#">Dominar</a></li>
+            <li><a class="dropdown-item" href="#">Platina</a></li>
+            <li><a class="dropdown-item" href="#">CT</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+             3 Wheelers & Qute
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">RE</a></li>
+            <li><a class="dropdown-item" href="#">Maxima Z</a></li>
+            <li><a class="dropdown-item" href="#">Maxima X Wide</a></li>
+            <li><a class="dropdown-item" href="#">Maxima C</a></li>
+             <li><a class="dropdown-item" href="#">Qute</a></li>
+            </ul>
+          </li>
+          <li>
+            <button class="btn btn-primary ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#searchCollapse" aria-expanded="false" aria-controls="searchCollapse">
+          <i class="bi bi-search"></i>
+        </button>
+        <div class="collapse search-bar" id="searchCollapse">
+          <form class="mt-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+
+            </div>
+          </form>
+            </div>
+        </li>
+        </ul>
+</div>
+      <div class="button-wrapper b1">
+      <button class="btn btn-primary hide-on-small" style="margin-left:100px; width: 150px; height: 50px; background-color: rgb(0, 153, 255); color: white; width: 150px;" onmouseover="this.style.backgroundColor='rgb(128, 204, 255)'" onmouseout="this.style.backgroundColor='rgb(0, 153, 255)'">
+    <a href="#" class="nav-link" style="color:white">Discover</a>
+  </button>
+
+  <button class="btn btn-primary hide-on-small" style="margin-left: 10px; background-color: rgb(235, 235, 241); border-color:black; color: white; width: 250px; height: 50px;" id="b1">
+    <a href="#" class="nav-link" style="color: black;">Visit E-Showroom</a>
+  </button>
+  </div>
+
+
+    </div>
+</nav>
+
+
+
+
+    <div class="container-fluid">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+              </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="P125 Revised Website Banner.jpg" class="d-block w-100" alt="..." style="width: 100%;">
+              </div>
+              <div class="carousel-item">
+                <img src="desktop1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="desktop2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+      </div>
+          <div class="container" style="width: 300px; height: 200px;">
+              <h2 style="text-align: center; margin-top: 50px;">Customers have placed<br>their trust in us</h2>
+              <h5 style="text-align: center;">and we have just begun!</h5>
+              <ul style="list-style: none;">
+                <li style="text-align: center;">*Desclaimer</li>
+              </ul>
+          </div>
+
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                          <img src="Motorcycle-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="Motorcycle-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="Motorcycle-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </a>
+                    </div>
+                    <div class="card" style="border: none;">
+                      <div class="card-body">
+                        <h5 class="card-title">Motorcycles</h5>
+                        <p class="card-text">Class-leading performance and style</p>
+                        <a href="#" class="btn btn-primary">Know More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                          <img src="Chetak-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="Chetak-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+
+                      <a class="carousel-control-prev" href="#carousel2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </a>
+                    </div>
+                    <div class="card" style="border: none;">
+                      <div class="card-body">
+                        <h5 class="card-title">Chetak</h5>
+                        <p class="card-text">The future of mobility</p>
+                        <a href="#" class="btn btn-primary">Know More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                          <img src="CV-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="CV-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="CV-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel3" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel3" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </a>
+                    </div>
+                      <div class="card" style="border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">3 Wheelers & Qute</h5>
+                        <p class="card-text">World's No.1 three-wheeler</p>
+                        <a href="#" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+  <div class="container-fluid border border-2 align-center">
+    <h1 class="text-center"><b>News & Media</b></h1>
+    <div class="row row-cols-md-3" style="gap: 30px; margin: 50px; margin-left: 100px;">
+
+        <div class="card  shadow mb-5 bg-white rounded " style="width: 18rem;">
+
+          <div class="card-body">
+            <p class="card-text">BAJAJ AUTO LTD & TRIUMPH MOTORCYCLES LTD LAUNCH THE NEXT PHASE OF THEIR PARTNERSHIP OPERATIONS IN INDIA</p>
+          </div>
+        </div>
+        <div class="card  shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Bajaj Auto launches  the all-new Pulsar P150 , re-imagined engineered!
+            </p>
+          </div>
+        </div>
+        <div class="card  shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Bajaj Auto launches the platina 110 ABS - India's first 100-115cc commuter motorcycle with ABS</p>
+          </div>
+        </div>
+        <div class="card  shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Bajaj Auto reboots its streetfighter Pulsar NS series with segment first features NS200 NS160 hit the streets today</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="padding: 30px;">
+  <div class="row row-cols-1 row-cols-md-3 g-4" >
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="About Bajaj.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">About Bajaj</h5>
+          <p class="card-text">We are the world's most valuable two and three wheeler company. Come and take a close look at our ethos and our ecosystem.</p>
+          <a href="#" style="color: rgb(58, 148, 251);">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="Investor.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Investors</h5>
+          <p class="card-text">Access Bajaj Auto's financial performance reports, stock market intimations and policies & codes here. </p>
+          <a href="#" style="color: rgb(58, 148, 251);">Explore</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="bajaj-carrer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Careers</h5>
+          <p class="card-text">Being the best in business equals attracting the best of talent. At Bajaj, we always remain on a lookout for sharp minds and brave souls. Know more about our workplace culture and browse for open positions.</p>
+          <a href="#" style="color: rgb(58, 148, 251);">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container-fluid p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">motorcycles</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Pulsar</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">DOminor</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Avenger</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Platina</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">CT</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">3 Wheelers & qute</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">RE</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Maxima Z</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Maxima X Wide</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Maxima C</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Qute</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Customer Service</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Contac Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Spares</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Owner's Manual</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Locate a Dealer</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">About Bajaj</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">The World's Favourite Indian</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">75 Years of BAjaj Auto</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Chairman Emeritus Speeches</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Bajaj Auto & KTM</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">About Bajaj Group</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/5536d71499.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
